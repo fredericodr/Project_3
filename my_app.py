@@ -8,3 +8,5 @@ def to_datetime(df):
     df["date"] = pd.to_numeric(df["date"])
     return df
 
+def new_feature(something):
+    return "amazing work! you did something"
